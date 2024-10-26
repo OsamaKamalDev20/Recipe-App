@@ -1,0 +1,35 @@
+name: recipeapp
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  smooth_page_indicator: ^1.1.0
+  google_nav_bar: ^5.0.6
+  provider: ^6.1.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Heading
+      fonts:
+        - asset: assets/fonts/Metropolis-Bold.otf
+          weight: 700
+    - family: SubHeading
+      fonts:
+        - asset: assets/fonts/Metropolis-SemiBold.otf
+          weight: 600
+    - family: Description
+      fonts:
+        - asset: assets/fonts/Metropolis-Regular.otf
+          weight: 400
+
